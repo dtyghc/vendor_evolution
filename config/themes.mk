@@ -57,10 +57,3 @@ PRODUCT_PACKAGES += \
 # Themes
 PRODUCT_PACKAGES += \
     AndroidVividThemeOverlay
-
-# UDFPS Resources
-EXTRA_UDFPS_ANIMATIONS ?= false
-ifeq ($(EXTRA_UDFPS_ANIMATIONS),true)
-PRODUCT_PACKAGES += \
-    UdfpsResources
-endif
